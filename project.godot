@@ -6,10 +6,19 @@
 ;   [section] ; section goes between []
 ;   param=value ; assign values to parameters
 
-config_version=5
+config_version=4
+
+_global_script_classes=[  ]
+_global_script_class_icons={
+
+}
 
 [application]
 
-config/name="First 3D Game Tutorial"
-config/features=PackedStringArray("4.0", "Forward Plus")
-config/icon="res://icon.svg"
+config/name="Squash the Creeps (3D)"
+config/icon="res://icon.png"
+
+[rendering]
+
+quality/driver/driver_name="GLES2"
+quality/filters/msaa=3
